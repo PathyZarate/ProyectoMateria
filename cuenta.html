@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles/inicio.css" />
+    <link rel="stylesheet" href="styles/formularioSesion.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Itim:wght@400&display=swap" />
+
+
+    <title>Formulario</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="nombrepagina">
+            <div class="mascotopia">Mascotopia</div>
+        </div>
+        <div class="busquedaybotones">
+            <div class="busqueda">
+                <div class="placeholderbuscar">
+                    <div class="alimentos">Buscar alimentos,articulos....</div>
+                </div>
+                <div class="botonbuscar">
+                    <img class="lupa-icon" alt="" src="svg/lupa.svg">
+
+                </div>
+            </div>
+            <div class="botonescuentacarrito">
+                <div class="botoncuenta" id="botoncuenta">
+                    <div class="mi-cuenta">Mi cuenta</div>
+                    <img class="cuenta-icon" alt="" src="svg/cuenta.svg">
+
+                </div>
+                <div class="botoncarrito">
+                    <img class="carrito-icon" alt="" src="svg/carrito.svg">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cardusuario-parent">
+        <div class="cardusuario">
+            <div class="imagenusuario">
+                <img class="f-785532710-xjm6mfeavylww9ddvs-icon" alt="" src="recursos\noimagen.jpg">
+            </div>
+            <div class="nombreusu" id="email">
+                <div class="nombreusuario">NombreUsuario</div>
+            </div>
+            <div class="botoneditar">
+                <div class="nombreusuario">Editar</div>
+            </div>
+            <div class="nombreusu" id="password">
+                <div class="nombreusuario">ContraseñaUsuario</div>
+            </div>
+            <div class="botoneditar">
+                <div class="nombreusuario">Editar</div>
+            </div>
+            <div class="botoncese">
+                <div class="nombreusuario">Cerrar Sesion</div>
+            </div>
+        </div>
+
+        <div class="frame-parent">
+
+            <h1 class="titulo">Tu Mascota</h1>
+
+            <form class="cardmascota" id="mascotaForm">
+                <div class="imagenusuario">
+                    <img class="f-785532710-xjm6mfeavylww9ddvs-icon1" alt="" src="recursos\noimagen.jpg" id="preview">
+                </div>
+                <div class="detallesmascotaf">
+                    <div class="detallesmascota">
+                        <div class="masnombre">
+                            <div class="nombreusuario">Nombre:</div>
+                        </div>
+                    </div>
+                    <div class="mascolor">
+                        <div class="nombreusuario">Color:</div>
+                    </div>
+                    <div class="masespecie">
+                        <div class="nombreusuario">Especie:</div>
+                    </div>
+                    <div class="masgenero">
+                        <div class="nombreusuario">Sexo:</div>
+                    </div>
+                    <div class="masedad">
+                        <div class="nombreusuario">Edad:</div>
+                    </div>
+                    
+                    <div class="placeholders">
+                        <input class="placeholder" id="nombre"/>
+                        <input class="placeholder" id="color"/>
+                        <input class="placeholder" id="especie"/>
+                        <input class="placeholder" id="sexo"/>
+                        <input class="placeholder" id="edad"/>
+                        <input class="placeholder" id="imagen"/ type="file">
+                        <input type="submit" value="Hola">
+                    </div>
+
+                </div>
+            </form>
+
+            <button class="botonaadir" type="submit">
+                <img class="vector-icon" alt="" src="svg/mas.svg">
+            </button>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="footer">
+        <div class="pie-de-pagina">Pie de pagina</div>
+    </div>
+
+    <script src="./scripts/validacion.js"></script>
+    <script src="scripts/mostrarIS.js"></script>
+</body>
+
+</html>

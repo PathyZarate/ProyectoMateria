@@ -1,3 +1,13 @@
+
+.fonfoimg,
+.imagenusuario,
+.nombreusuario,
+.nombreusu,
+.botoneditar,
+.botoncese,
+.cardusuario,
+
+
 .botoncarrito,
 .botonbuscar,
 .botoncuenta,
@@ -17,6 +27,11 @@
       cursor: pointer;
 }
 
+.footer {
+      z-index:9999;
+      width:100%;
+}
+
 
 
 @media screen and (max-width: 450px) {
@@ -25,7 +40,7 @@
       }
 
       .footer {
-            position: absolute;
+            position: fixed;
             width: 100%;
             right: 0px;
             bottom: 0px;
@@ -42,6 +57,88 @@
             font-size: 12px;
             font-family: Inter;
       }
+      .fonfoimg {
+            width: 231px;
+            position: absolute;
+            margin: 0 !important;
+            top: 3px;
+            left: 4.5px;
+            border-radius: 7px;
+            height: 234px;
+            object-fit: cover;
+            z-index: 0;
+        }
+        .imagenusuario {
+            width: 240px;
+            border-radius: 7px;
+            background-color: #ff7d96;
+            height: 240px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 10px;
+            box-sizing: border-box;
+            position: relative;
+        }
+        .nombreusuario {
+            position: relative;
+        }
+        .nombreusu {
+            width: 250px;
+            border-radius: 7px;
+            background-color: #fff;
+            border: 1px solid #00d1c7;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+        }
+        .botoneditar {
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 17px;
+            background-color: #abe337;
+            border: 1px solid #000;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+        }
+        .botoncese {
+            border-radius: 14px;
+            background-color: #abe337;
+            border: 1px solid #000;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+        }
+        .cardusuario {
+            width: 100%;
+            position: relative;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+            background-color: #fff;
+            border: 1px solid #ff891d;
+            box-sizing: border-box;
+            height: 531px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-content: center;
+            padding: 14px 10px;
+            gap: 41px 72px;
+            text-align: center;
+            font-size: 22px;
+            color: #000;
+            font-family: Itim;
+        }        
 
       .ofertas-en-productos {
             align-self: stretch;
@@ -731,7 +828,7 @@
       }
 
       .footer {
-            position: absolute;
+            position: fixed;
             width: 100%;
             right: 0px;
             bottom: 0px;
@@ -1294,11 +1391,10 @@
       }
 
       .footer {
-            position: absolute;
+            position: fixed;
             width: 100%;
-            top: 954px;
-            right: 0px;
-            left: 0px;
+          bottom: 0;
+          left:0;
             background-color: #e7ffac;
             height: 70px;
             display: flex;
