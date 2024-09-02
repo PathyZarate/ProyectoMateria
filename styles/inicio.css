@@ -1,18 +1,7 @@
-
-.fonfoimg,
-.imagenusuario,
-.nombreusuario,
-.nombreusu,
-.botoneditar,
-.botoncese,
-.cardusuario,
-
-
 .botoncarrito,
 .botonbuscar,
 .botoncuenta,
 .botonbuscar1,
-.comprar-wrapper,
 .vector-container,
 .vector-wrapper,
 .kg,
@@ -27,11 +16,6 @@
       cursor: pointer;
 }
 
-.footer {
-      z-index:9999;
-      width:100%;
-}
-
 
 
 @media screen and (max-width: 450px) {
@@ -40,7 +24,7 @@
       }
 
       .footer {
-            position: fixed;
+            position: absolute;
             width: 100%;
             right: 0px;
             bottom: 0px;
@@ -57,88 +41,6 @@
             font-size: 12px;
             font-family: Inter;
       }
-      .fonfoimg {
-            width: 231px;
-            position: absolute;
-            margin: 0 !important;
-            top: 3px;
-            left: 4.5px;
-            border-radius: 7px;
-            height: 234px;
-            object-fit: cover;
-            z-index: 0;
-        }
-        .imagenusuario {
-            width: 240px;
-            border-radius: 7px;
-            background-color: #ff7d96;
-            height: 240px;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: flex-start;
-            padding: 10px;
-            box-sizing: border-box;
-            position: relative;
-        }
-        .nombreusuario {
-            position: relative;
-        }
-        .nombreusu {
-            width: 250px;
-            border-radius: 7px;
-            background-color: #fff;
-            border: 1px solid #00d1c7;
-            box-sizing: border-box;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            padding: 10px;
-        }
-        .botoneditar {
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-            border-radius: 17px;
-            background-color: #abe337;
-            border: 1px solid #000;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            padding: 10px;
-        }
-        .botoncese {
-            border-radius: 14px;
-            background-color: #abe337;
-            border: 1px solid #000;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            padding: 10px;
-        }
-        .cardusuario {
-            width: 100%;
-            position: relative;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-            border-radius: 10px;
-            background-color: #fff;
-            border: 1px solid #ff891d;
-            box-sizing: border-box;
-            height: 531px;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            flex-wrap: wrap;
-            align-content: center;
-            padding: 14px 10px;
-            gap: 41px 72px;
-            text-align: center;
-            font-size: 22px;
-            color: #000;
-            font-family: Itim;
-        }        
 
       .ofertas-en-productos {
             align-self: stretch;
@@ -357,8 +259,8 @@
       .comprar-wrapper {
             flex: 1;
             border-radius: 7px;
-            background-color: #abe337;
             height: 42px;
+            background-color: transparent;
             display: flex;
             flex-direction: row;
             align-items: center;
@@ -815,7 +717,19 @@
             font-family: Itim;
       }
 
-
+      #comprar-1,
+      #comprar-2,
+      #comprar-3,
+      #comprar-4,
+      #comprar-5 {
+            background-color: #4CAF50;
+            border: 1px solid black;
+            padding: 10px 5px;
+            text-align: center;
+            display: inline-block;
+            font-size: 12px;
+            border-radius: 4px;
+      }
 }
 
 @media screen and (min-width: 451px) and (max-width: 1030px) {
@@ -828,7 +742,7 @@
       }
 
       .footer {
-            position: fixed;
+            position: absolute;
             width: 100%;
             right: 0px;
             bottom: 0px;
@@ -1378,7 +1292,20 @@
             font-family: Inter;
       }
 
-
+      #comprar-1,
+      #comprar-2,
+      #comprar-3,
+      #comprar-4,
+      #comprar-5 {
+            background-color: #4CAF50;
+            border: 1px solid black;
+            padding: 10px 25px;
+            text-align: center;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            border-radius: 4px;
+      }
 }
 
 @media screen and (min-width: 1031px) {
@@ -1391,10 +1318,11 @@
       }
 
       .footer {
-            position: fixed;
+            position: absolute;
             width: 100%;
-          bottom: 0;
-          left:0;
+            top: 954px;
+            right: 0px;
+            left: 0px;
             background-color: #e7ffac;
             height: 70px;
             display: flex;
@@ -1632,17 +1560,14 @@
       }
 
       .comprar-wrapper {
-            flex: 1;
-            border-radius: 7px;
-            background-color: #abe337;
-            height: 42px;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            padding: 2px;
-            box-sizing: border-box;
-            font-size: 16px;
+            background-color: transparent;
+            /* Elimina el fondo blanco */
+            border: none;
+            /* Elimina los bordes negros */
+            padding: 0;
+            /* Ajusta el padding si es necesario */
+            margin: 0;
+            /* Ajusta el margin si es necesario */
       }
 
       .comprarproducto {
@@ -1951,7 +1876,20 @@
             font-family: Inter;
       }
 
-
+      #comprar-1,
+      #comprar-2,
+      #comprar-3,
+      #comprar-4,
+      #comprar-5 {
+            background-color: #4CAF50;
+            border: 1px solid black;
+            padding: 10px 20px;
+            text-align: center;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            border-radius: 4px;
+      }
 }
 
 
@@ -2040,4 +1978,86 @@ input {
       padding: 10px;
       border-radius: 5px;
       border: 1px solid #00d1c7;
+}
+
+
+
+.comprar,
+.kg {
+      background-color: transparent;
+      border: none;
+      color: white;
+      cursor: pointer;
+}
+
+#confirmar-pago,
+#vaciar-carrito {
+      background-color: #abd937;
+      color: black;
+      border: 1px solid black;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 4px;
+}
+
+#confirmar-pago:hover,
+#vaciar-carrito:hover {
+      background-color: #4ab130;
+}
+
+.quitar-item {
+      background-color: #ff7d96;
+      color: black;
+      border: none;
+      padding: 5px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 4px;
+}
+
+.quitar-item:hover {
+      background-color: #e53935;
+}
+
+.kg-seleccionado {
+      color: #0c0b0b;
+}
+
+#carrito-modal {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 90%;
+      max-width: 600px;
+      background-color: transparent;
+      max-height: 80%;
+      overflow-y: auto;
+      padding: 20px;
+      z-index: 1000;
+}
+
+#carrito-contenido {
+      max-height: 60vh;
+      overflow-y: auto;
+}
+
+#close-carrito-modal {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: transparent;
+      border: none;
+      font-size: 20px;
+      cursor: pointer;
 }
