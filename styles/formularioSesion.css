@@ -182,7 +182,8 @@ body{
     background-color: #fff;
     border: 1px solid #00d1c7;
     box-sizing: border-box;
-    height: 47px;
+    height: 40px;
+    text-align: center;
 }
 .placeholder2 {
     align-self: stretch;
@@ -198,17 +199,17 @@ body{
     width: 217px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 37px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
     margin-top: -4px;
 }
 .detallesmascotaf {
     align-self: stretch;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
     position: relative;
     gap: 21px;
 }
@@ -277,6 +278,7 @@ body{
 .titulo {
     margin: 0;
     padding:0;
+    font-size: 50px;
 }
 
 

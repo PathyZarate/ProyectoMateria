@@ -4,8 +4,9 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="initial-scale=1, width=device-width">
-	<link rel="stylesheet" href="styles/Opciones.css">
+	<link rel="stylesheet" href="styles\Opciones.css">
 	<link rel="stylesheet" href="styles\inicio.css" />
+
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Itim:wght@400&display=swap" />
 
@@ -58,34 +59,33 @@
 					</div>
 					<div class="pesoproducto">
 						<div class="kg-wrapper">
-							<div class="kg">1 Kg</div>
+							<button class="kg" data-id="1" data-peso="1">1 Kg</button>
 						</div>
 						<div class="kg-wrapper">
-							<div class="kg1">5 Kg</div>
+							<button class="kg" data-id="1" data-peso="5">5 Kg</button>
 						</div>
 						<div class="kg-wrapper">
-							<div class="kg2">10 Kg</div>
+							<button class="kg" data-id="1" data-peso="10">10 Kg</button>
 						</div>
 					</div>
 					<div class="precioproducto">
-						<div class="pie-de-pagina">Precio</div>
+						<div class="pie-de-pagina">100bs</div>
 					</div>
 					<div class="comprarproducto">
 						<div class="frame-parent">
 							<div class="vector-wrapper">
-								<img class="vector-icon" alt="" src="svg/menos.svg">
-
+								<img class="vector-icon menos" alt="" src="svg/menos.svg" data-id="1">
 							</div>
 							<div class="wrapper">
-								<div class="div">1</div>
+								<div class="cantidad" id="cantidad-1">1</div>
 							</div>
 							<div class="vector-container">
-								<img class="vector-icon1" alt="" src="svg/mas.svg">
-
+								<img class="vector-icon1 mas" alt="" src="svg/mas.svg" data-id="1">
 							</div>
 						</div>
-						<div class="comprar-wrapper">
-							<div class="comprar">Comprar</div>
+						<div class="comprar-wrapper" id="comprar-1">
+							<button class="comprar" data-id="1" data-nombre="Alimento para perros adultos"
+								data-precio="100bs">Comprar</button>
 						</div>
 					</div>
 				</div>
@@ -104,34 +104,34 @@
 					</div>
 					<div class="pesoproducto">
 						<div class="kg-wrapper">
-							<div class="kg">1 Kg</div>
+							<button class="kg" data-id="2" data-peso="1">1 Kg</button>
 						</div>
 						<div class="kg-wrapper">
-							<div class="kg1">5 Kg</div>
+							<button class="kg" data-id="2" data-peso="5">5 Kg</button>
 						</div>
 						<div class="kg-wrapper">
-							<div class="kg2">10 Kg</div>
+							<button class="kg" data-id="2" data-peso="10">10 Kg</button>
 						</div>
 					</div>
+
 					<div class="precioproducto">
-						<div class="pie-de-pagina">Precio</div>
+						<div class="pie-de-pagina">80bs</div>
 					</div>
 					<div class="comprarproducto">
 						<div class="frame-parent">
 							<div class="vector-wrapper">
-								<img class="vector-icon" alt="" src="svg/menos.svg">
-
+								<img class="vector-icon menos" alt="" src="svg/menos.svg" data-id="2">
 							</div>
 							<div class="wrapper">
-								<div class="div">1</div>
+								<div class="cantidad" id="cantidad-2">1</div>
 							</div>
 							<div class="vector-container">
-								<img class="vector-icon1" alt="" src="svg/mas.svg">
-
+								<img class="vector-icon1 mas" alt="" src="svg/mas.svg" data-id="2">
 							</div>
 						</div>
-						<div class="comprar-wrapper">
-							<div class="comprar">Comprar</div>
+						<div class="comprar-wrapper" id="comprar-2">
+							<button class="comprar" data-id="2" data-nombre="Alimento para perros chacorros"
+								data-precio="80bs">Comprar</button>
 						</div>
 					</div>
 				</div>
@@ -150,34 +150,34 @@
 					</div>
 					<div class="pesoproducto">
 						<div class="kg-wrapper">
-							<div class="kg">1 Kg</div>
+							<button class="kg" data-id="3" data-peso="1">1 Kg</button>
 						</div>
 						<div class="kg-wrapper">
-							<div class="kg1">5 Kg</div>
+							<button class="kg" data-id="3" data-peso="5">5 Kg</button>
 						</div>
 						<div class="kg-wrapper">
-							<div class="kg2">10 Kg</div>
+							<button class="kg" data-id="3" data-peso="10">10 Kg</button>
 						</div>
 					</div>
+
 					<div class="precioproducto">
-						<div class="pie-de-pagina">Precio</div>
+						<div class="pie-de-pagina">1bs</div>
 					</div>
 					<div class="comprarproducto">
 						<div class="frame-parent">
 							<div class="vector-wrapper">
-								<img class="vector-icon" alt="" src="svg/menos.svg">
-
+								<img class="vector-icon menos" alt="" src="svg/menos.svg" data-id="3">
 							</div>
 							<div class="wrapper">
-								<div class="div">1</div>
+								<div class="cantidad" id="cantidad-3">1</div>
 							</div>
 							<div class="vector-container">
-								<img class="vector-icon1" alt="" src="svg/mas.svg">
-
+								<img class="vector-icon1 mas" alt="" src="svg/mas.svg" data-id="3">
 							</div>
 						</div>
-						<div class="comprar-wrapper">
-							<div class="comprar">Comprar</div>
+						<div class="comprar-wrapper" id="comprar-3">
+							<button class="comprar" data-id="3" data-nombre="Monello Gato Salmon Atún y Pollo"
+								data-precio="1bs">Comprar</button>
 						</div>
 					</div>
 				</div>
@@ -196,34 +196,34 @@
 					</div>
 					<div class="pesoproducto">
 						<div class="kg-wrapper">
-							<div class="kg">1 Kg</div>
+							<button class="kg" data-id="4" data-peso="1">1 Kg</button>
 						</div>
 						<div class="kg-wrapper">
-							<div class="kg1">5 Kg</div>
+							<button class="kg" data-id="4" data-peso="5">5 Kg</button>
 						</div>
 						<div class="kg-wrapper">
-							<div class="kg2">10 Kg</div>
+							<button class="kg" data-id="4" data-peso="10">10 Kg</button>
 						</div>
 					</div>
+
 					<div class="precioproducto">
-						<div class="pie-de-pagina">Precio</div>
+						<div class="pie-de-pagina">500bs</div>
 					</div>
 					<div class="comprarproducto">
 						<div class="frame-parent">
 							<div class="vector-wrapper">
-								<img class="vector-icon" alt="" src="svg/menos.svg">
-
+								<img class="vector-icon menos" alt="" src="svg/menos.svg" data-id="4">
 							</div>
 							<div class="wrapper">
-								<div class="div">1</div>
+								<div class="cantidad" id="cantidad-4">1</div>
 							</div>
 							<div class="vector-container">
-								<img class="vector-icon1" alt="" src="svg/mas.svg">
-
+								<img class="vector-icon1 mas" alt="" src="svg/mas.svg" data-id="4">
 							</div>
 						</div>
-						<div class="comprar-wrapper">
-							<div class="comprar">Comprar</div>
+						<div class="comprar-wrapper" id="comprar-4">
+							<button class="comprar" data-id="4" data-nombre="Alimento para gatos adultos castrados"
+								data-precio="500bs">Comprar</button>
 						</div>
 					</div>
 				</div>
@@ -242,34 +242,34 @@
 					</div>
 					<div class="pesoproducto">
 						<div class="kg-wrapper">
-							<div class="kg">1 Kg</div>
+							<button class="kg" data-id="5" data-peso="1">1 Kg</button>
 						</div>
 						<div class="kg-wrapper">
-							<div class="kg1">5 Kg</div>
+							<button class="kg" data-id="5" data-peso="5">5 Kg</button>
 						</div>
 						<div class="kg-wrapper">
-							<div class="kg2">10 Kg</div>
+							<button class="kg" data-id="5" data-peso="10">10 Kg</button>
 						</div>
 					</div>
+
 					<div class="precioproducto">
-						<div class="pie-de-pagina">Precio</div>
+						<div class="pie-de-pagina">99999bs</div>
 					</div>
 					<div class="comprarproducto">
 						<div class="frame-parent">
 							<div class="vector-wrapper">
-								<img class="vector-icon" alt="" src="svg/menos.svg">
-
+								<img class="vector-icon menos" alt="" src="svg/menos.svg" data-id="5">
 							</div>
 							<div class="wrapper">
-								<div class="div">1</div>
+								<div class="cantidad" id="cantidad-5">1</div>
 							</div>
 							<div class="vector-container">
-								<img class="vector-icon1" alt="" src="svg/mas.svg">
-
+								<img class="vector-icon1 mas" alt="" src="svg/mas.svg" data-id="5">
 							</div>
 						</div>
-						<div class="comprar-wrapper">
-							<div class="comprar">Comprar</div>
+						<div class="comprar-wrapper" id="comprar-5">
+							<button class="comprar" data-id="5" data-nombre="Alimento para perros adultos castrados"
+								data-precio="99999bs">Comprar</button>
 						</div>
 					</div>
 				</div>
@@ -335,8 +335,6 @@
 				</div>
 			</div>
 		</div>
-		
-		
 		<div class="navbar">
 			<div class="nombrepagina">
 				<div class="mascotopia">Mascotopia</div>
@@ -357,7 +355,7 @@
 						<img class="cuenta-icon" alt="" src="svg/cuenta.svg">
 
 					</div>
-					<div class="botoncarrito">
+					<div class="botoncarrito" id="botoncarrito">
 						<img class="carrito-icon" alt="" src="svg/carrito.svg">
 
 					</div>
@@ -389,7 +387,7 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="modal-overlay" id="register-modal">
 		<div class="modal-content">
 			<button class="close-modal" id="close-register-modal">
@@ -402,19 +400,19 @@
 				<form id="register-form">
 					<label for="register-email">Correo electrónico:</label>
 					<input type="email" id="register-email" required>
-	
+
 					<label for="register-password">Contraseña:</label>
 					<input type="password" id="register-password" required>
-	
+
 					<label for="register-confirm-password">Confirma tu contraseña:</label>
 					<input type="password" id="register-confirm-password" required>
-	
+
 					<button type="submit" class="modal-button">Registrar</button>
 				</form>
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="modal-overlay" id="login-modal">
 		<div class="modal-content">
 			<button class="close-modal" id="close-login-modal">
@@ -427,21 +425,38 @@
 				<form id="login-form">
 					<label for="login-email">Correo electrónico:</label>
 					<input type="email" id="login-email" required>
-	
+
 					<label for="login-password">Contraseña:</label>
 					<input type="password" id="login-password" required>
-	
-					<button type="submit" class="modal-button" id="entrarBtn">Entrar</button>
+
+					<button type="submit" class="modal-button">Entrar</button>
 				</form>
 			</div>
 		</div>
 	</div>
-	
+
+	<div class="modal-overlay" id="carrito-modal">
+		<div class="modal-content">
+			<button class="close-modal" id="close-carrito-modal">
+				<img class="close-icon" alt="Close" src="svg/cancelar.svg">
+			</button>
+			<div class="modal-header">
+				<h2>Carrito de Compras</h2>
+			</div>
+			<div class="modal-body" id="carrito-contenido">
+			</div>
+			<div class="modal-footer">
+				<button id="vaciar-carrito">Vaciar Carrito</button>
+				<button id="confirmar-pago">Confirmar Pago</button>
+			</div>
+		</div>
+	</div>
 
 </body>
-<script src="scripts/Opciones.js"></script>
-<script src="scripts/modal.js"></script>
-<script src="scripts/irACuenta.js"></script>
-<script src="scripts/inicioS.js"></script>
-<script src="scripts/carrusel.js"></script>
+<script src="scripts\modal.js"></script>
+<script src="scripts\carrito.js"></script>
+<script src="scripts\irACuenta.js"></script>
+<script src="scripts\inicioS.js"></script>
+<script src="scripts\carrusel.js"></script>
+<script src="scripts\Opciones.js"></script>
 </html>
