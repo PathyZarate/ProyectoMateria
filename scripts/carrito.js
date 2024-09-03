@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
             itemDiv.innerHTML = `
                 <p>${item.nombre}</p>
                 <p>${item.precio}</p>
-                <p>Peso: ${item.peso} Kg</p>
+                <p>Peso: ${item.peso}</p>
                 <p>Cantidad: ${item.cantidad}</p>
                 <button class="quitar-item" data-index="${index}">Quitar</button>
             `;

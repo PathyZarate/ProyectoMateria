@@ -17,7 +17,7 @@
 <body>
     <div class="navbar">
         <div class="nombrepagina">
-            <div class="mascotopia">Mascotopia</div>
+            <div class="mascotopia"><a href="inicio.html">Mascotopia</a></div>
         </div>
         <div class="busquedaybotones">
             <div class="busqueda">
@@ -42,6 +42,22 @@
             </div>
         </div>
     </div>
+    <div class="modal-overlay" id="carrito-modal">
+		<div class="modal-content">
+			<button class="close-modal" id="close-carrito-modal">
+				<img class="close-icon" alt="Close" src="svg/cancelar.svg">
+			</button>
+			<div class="modal-header">
+				<h2>Carrito de Compras</h2>
+			</div>
+			<div class="modal-body" id="carrito-contenido">
+			</div>
+			<div class="modal-footer">
+				<button id="vaciar-carrito">Vaciar Carrito</button>
+				<button id="confirmar-pago">Confirmar Pago</button>
+			</div>
+		</div>
+	</div>
 
     <div class="cardusuario-parent">
         <div class="cardusuario">
@@ -110,6 +126,12 @@
 
     <script src="./scripts/validacion.js"></script>
     <script src="scripts/mostrarIS.js"></script>
+    <script src="scripts\modal.js"></script>
+    <script src="scripts\carrito.js"></script>
+    <script src="scripts\irACuenta.js"></script>
+    <script src="scripts\inicioS.js"></script>
+    <script src="scripts\carrusel.js"></script>
+    <script src="scripts\Opciones.js"></script>
 </body>
 
 </html>
